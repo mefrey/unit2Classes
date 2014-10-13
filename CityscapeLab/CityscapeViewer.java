@@ -1,15 +1,15 @@
 import javax.swing.JFrame;
 
 /**
- * Class that contains the main method for the program and creates the frame containing the component.
+ * Class that creates the frame for the cityscape component
  * 
- * @author @gcschmit
- * @version 18 July 2014
+ * @author @mefrey
+ * @version 3 October 2014
  */
 public class CityscapeViewer
 {
     /**
-     * main method for the program which creates and configures the frame for the program
+     * main method that creates and configures the frame for the program
      *
      */
     public static void main(String[] args)
@@ -17,7 +17,7 @@ public class CityscapeViewer
         // create and configure the frame (window) for the program
         JFrame frame = new JFrame();
         
-        frame.setSize(800 /* x */, 600 /* y */);
+        frame.setSize(1000 /* x */, 1000 /* y */);
         frame.setTitle("Cityscape");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
